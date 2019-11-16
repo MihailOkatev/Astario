@@ -1,0 +1,423 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    font-size: 93.75%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    z-index: 100;
+}
+
+.header-block {
+    position: relative;
+    background-image: url("./img/football_767.jpg");
+    background-size: cover;
+    z-index: 10;
+}
+
+.header-block::before {
+    content: "";
+    background-color: #19183a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.95;
+}
+
+.logo-block {
+    text-align: center;
+    margin-bottom: 36.25%;
+}
+
+.logo-img {
+    width: 41.5%;
+    fill: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.slogan {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.54px;
+    margin-left: 6.25%;
+}
+
+.main-header {
+    letter-spacing: 1.4px;
+    margin-left: 20%;
+    margin-top: 5.4%;
+    margin-bottom: 28%;
+}
+
+.app-btns {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 26.25%;
+}
+
+.btn {
+    width: 100%;
+    height: 35px;
+    border-radius: 17px 17px 18px;
+    background-color: #5e42b0;
+    border: none;
+    text-decoration: none;
+    display: block;
+}
+
+.button-info {
+    display: flex;
+    width: 113px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.apple-button {
+    margin-bottom: 4.375%;
+}
+
+.apple-logo {
+    fill: #ffffff;
+    width: 20px;
+    height: 24px;
+    padding-right: 3%;
+}
+
+.google-logo {
+    width: 22px;
+    height: 24px;
+    fill: #ffffff;
+    padding-right: 2.2%;
+}
+
+.icon-text {
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.appstore {
+    display: block;
+    font-weight: 700;
+}
+
+.athlets_title {
+    width: 66.25%;
+    color: #e7e7e7;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin-left: 6.5625%;
+    padding-bottom: 76.5625%;
+    margin-bottom: 0;
+}
+
+.footboler_wrapper {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    height: 281px;
+    z-index: 2;
+}
+
+.connection {
+    position: relative;
+    z-index: 0;
+    background-color: #fafafa;
+    padding-top: 26%;
+}
+
+.order-number {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 6.8%;
+    margin-right: 3%;
+}
+
+.heading {
+    display: flex;
+}
+
+.order-number::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    top: 17px;
+    left: 20px;
+    right: 0;
+    width: 15px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+}
+
+.order-number.white-line::after {
+    background-color: #ffffff;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #c1c1c1;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.15px;
+}
+
+.card-text {
+    color: #000000;
+    font-weight: 400;
+    margin-top: 5%;
+    padding-left: 6.5625%;
+    line-height: 18px;
+    box-sizing: border-box;
+}
+
+.card__connection {
+    padding-right: 10.93%;
+    padding-bottom: 14%;
+}
+
+.card__collaboration {
+    padding-right: 8.125%;
+    padding-bottom: 12.5%;
+}
+
+.collaboration {
+    background-color: #f5f4f9;
+}
+
+.collaboration-heading {
+    padding-top: 18.75%;
+}
+
+.growth {
+    background-color: #5e42b0;
+    padding-top: 18.75%;
+}
+
+.growth-card {
+    padding-right: 10.625%;
+    padding-bottom: 14.5%;
+}
+
+.growth-text {
+    color: #ffffff;
+}
+
+.player-title {
+    padding-bottom: 244px;
+}
+
+.player-img {
+    width: 94.375%;
+    position: absolute;
+    left: 2.81%;
+    z-index: 2;
+}
+
+.card__connection_players {
+    padding-right: 12.5%;
+    padding-bottom: 13%;
+}
+
+.card__collaboration_players {
+    padding-right: 6.875%;
+    padding-bottom: 13.5%;
+}
+
+.dtm {
+    background-color: #090c35;
+}
+
+.mod-color {
+    color: #8765dd;
+}
+
+.growth-card-players {
+    padding-right: 21.25%;
+    padding-bottom: 13.5%;
+}
+
+.be-active-text {
+    padding-right: 23%;
+    padding-bottom: 14%;
+}
+
+.find-contact-text {
+    padding-right: 8.4%;
+    padding-bottom: 14%;
+}
+
+.work-it-text {
+    padding-right: 7.8%;
+    padding-bottom: 17%;
+}
+
+.image-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.number-block {
+    display: flex;
+    position: absolute;
+    width: 21.875%;
+    height: 21.875%;
+    background-color: #5e42b0;
+    justify-content: center;
+    align-items: center;
+    color: #f5f6f7;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    bottom: -3.3%;
+    left: 6.25%;
+}
+
+.number::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    opacity: 0.3;
+    bottom: 24px;
+    left: 27px;
+}
+
+.be-active-image {
+    width: 100%;
+}
+
+.be-active-title {
+    color: #e7e7e7;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    padding-left: 5.94%;
+    margin-top: 23px;
+}
+
+.text-font__mod {
+    font-size: 1.067rem;
+    margin-bottom: 8.125%;
+    margin-top: 7.18%;
+}
+
+.footer {
+    background-image: url("./img/game_767.jpg");
+    position: relative;
+    background-size: cover;
+}
+
+.footer::before {
+    content: "";
+    background-color: #19183a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.93;
+}
+
+.footer-wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.footer-logo-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 22.5%;
+    height: 22.5%;
+}
+
+.footer-logo {
+    fill: #ffffff;
+    background-color: #5b3aaf;
+    margin-top: 99px;
+    border-radius: 20px;
+}
+
+.footer-information {
+    margin-right: auto;
+    margin-left: auto;
+    width: 87.5%;
+    margin-bottom: 87px;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 24px;
+    margin-bottom: 13px;
+    margin-top: 59px;
+}
+
+.footer-slogan {
+    color: #9b8ec1;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+
+.footer-btns {
+    padding-bottom: 0;
+}
+
+.logo-footer {
+    margin-top: 27%;
+    padding-bottom: 3%;
+    margin-bottom: 0;
+}
+
+.heading-link {
+    text-decoration: none;
+}
