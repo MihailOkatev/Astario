@@ -150,12 +150,13 @@ body {
 .blocks-list {
     padding: 0;
     margin: 0;
+    list-style-type: none;
+
 }
 
 .block-list-item {
     padding: 0;
     margin: 0;
-    list-style-type: none;
 }
 
 .connection {
