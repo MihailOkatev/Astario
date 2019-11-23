@@ -12,11 +12,10 @@
     font-style: normal;
 }
 
-html {
-    font-size: 93.75%;
-}
+
 
 body {
+    font-size: 15px;
     margin: 0;
     padding: 0;
     font-family: "Open Sans", Arial, sans-serif;
@@ -139,39 +138,44 @@ body {
     text-transform: uppercase;
     margin-top: 11px;
     margin-left: 6.5625%;
-    padding-bottom: 76.5625%;
-    margin-bottom: 0;
+    margin-bottom: 19px;
 }
 
-.footboler_wrapper {
-    position: relative;
+.image_football {
+    padding-left: 21.875%;
+    padding-right: 18.175%;
+    box-sizing: border-box
 }
 
-.image {
-    position: absolute;
-    top: 80px;
-    left: 70px;
-    height: 281px;
-    z-index: 2;
+.blocks-list {
+    padding: 0;
+    margin: 0;
+}
+
+.block-list-item {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 .connection {
-    position: relative;
-    z-index: 0;
+    margin-top: -50px;
     background-color: #fafafa;
     padding-top: 26%;
 }
+
 
 .order-number {
     position: relative;
     font-size: 14px;
     font-weight: 700;
-    padding-left: 6.8%;
     margin-right: 3%;
 }
 
 .heading {
     display: flex;
+    padding-left: 6.8%;
+
 }
 
 .order-number::after {
@@ -179,7 +183,7 @@ body {
     content: "";
     bottom: 0;
     top: 17px;
-    left: 21px;
+    left: 0px;
     right: 0;
     width: 15px;
     height: 4px;
@@ -242,15 +246,11 @@ body {
     color: #ffffff;
 }
 
-.player-title {
-    padding-bottom: 244px;
-}
 
-.player-img {
-    width: 94.375%;
-    position: absolute;
-    left: 2.81%;
-    z-index: 2;
+.image_basketball {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
 }
 
 .card__connection_players {
@@ -298,12 +298,12 @@ body {
 
 .number-block {
     display: flex;
+    align-items: center;
     position: absolute;
     width: 21.875%;
     height: 21.875%;
     background-color: #5e42b0;
     justify-content: center;
-    align-items: center;
     color: #f5f6f7;
     font-size: 14px;
     font-weight: 700;
@@ -313,16 +313,21 @@ body {
     left: 6.25%;
 }
 
+.number {
+    position: relative;
+    display: block;
+}
+
 .number::after {
     position: absolute;
     content: "";
-    width: 15px;
+    width: 16px;
     height: 4px;
     border-radius: 2px;
     background-color: #ffffff;
     opacity: 0.3;
-    bottom: 24px;
-    left: 27px;
+    left: 0;
+    bottom:-2px;
 }
 
 .be-active-image {
@@ -420,4 +425,93 @@ body {
 
 .heading-link {
     text-decoration: none;
+}
+
+@media (min-width:640px) and (max-width:960px) {
+  .app-btns {
+      display: flex;
+  } 
+  .slogan {
+    font-size: 64px;
+    letter-spacing: 3.52px;
+    margin-left: 11.7%;   
+  }
+.main-header {
+    letter-spacing: 3.2px;
+    margin-left: 25.4%;
+    margin-top: 3.9%;
+    margin-bottom: 28%;
+}
+
+.app-btns {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 26.25%;
+}
+  .apple-button:first-child {
+      margin-right: 30px;
+  } 
+  .athlets_title {
+    width: 44.4%;
+    font-size: 80px;
+    margin-top: 85px;
+    margin-left: 59.11%;
+    margin-right: 17.71%;
+    box-sizing: border-box
+}
+.athlets {
+    position: relative;
+    z-index:100; 
+}
+.image_football {
+    position: absolute;
+    top: 0;
+    left: -42%;
+    
+}
+.list-item-information {
+    margin-left: 59.11%;
+}
+.connection {
+    background-color: #ffffff;
+    padding-top: 0;
+    margin-top: 40px;
+}
+.card-text {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 4.17%;
+    line-height: 18px;
+    box-sizing: border-box;
+}
+.card__connection {
+    padding-right: 6.25%;
+    padding-bottom: 4.7%;
+}
+
+.collaboration-heading {
+    padding-top: 5.47%;
+}
+.card__collaboration {
+    padding-bottom: 4.82%;
+}
+.growth {
+    padding-top: 0.5%;
+}
+.growth-card {
+    padding-bottom: 4.69%;
+}
+.player-title {
+    margin-left: 4.43%;
+}
+.players-list {
+    margin-left: 4.17%;
+}
+.image_basketball {
+    position: absolute;
+    top: 0;
+    right: -43%;
+}
 }
