@@ -9,6 +9,7 @@
   <title>MQ Diplom Project</title>
 </head>
 <body>
+  <div class="page">
   <header class="header-block">
     <div class="container">
       <div class="logo-block">
@@ -58,7 +59,6 @@
   <main class="content">
     <section class="athlets">
           <h2 class="athlets_title">athlets</h2>
-          <div class="cards-block-wrapper">
               <picture class="image_football">
  <source srcset="./img/footballer_497.png" media="(min-width: 641px) and (max-width:960px)">
  <img src="./img/footballer.png" alt="american football player">
@@ -110,14 +110,14 @@
 </ol>
     </section>
 
-    <section class="athlets">
+    <section class="basketballer">
           <h2 class="athlets_title player-title">players</h2>
-        <!--<img class="image_basketball" src="./img/player.png" alt="american football player">-->
-        <picture class="image_basketball">
-            <source srcset="./img/basketballer_436.png" media="(min-width: 641px) and (max-width:960px)">
-            <img src="./img/footballer.png" alt="american football player">
-           </picture>
-      <ol class="blocks-list">
+          <!-- <img class="image_basketball" src="./img/player.png" alt="american football player">-->
+          <picture class="image_basketball">
+              <source srcset="./img/basketballer_436.png" media="(min-width: 641px) and (max-width:960px)">
+              <img src="./img/player.png" alt="american football player">
+             </picture>
+       <ol class="blocks-list">
       <li class=" block-list-item connection">
           <div class="list-item-information players-list">
         <div class="heading">
@@ -164,7 +164,12 @@
         <ol class="blocks-list">
       <li class="block-list-item be-active">
         <div class="image-wrapper">
-          <img src="./img/be-active_640.jpg" alt="" class="be-active-image">
+          <!--<img src="./img/be-active_640.jpg" alt="" class="be-active-image">-->
+          <picture class="be-active-image">
+              <source srcset="./img/be-active_640.jpg"  media="(max-width:640px)">
+              <source srcset="./img/be-active.jpg" media="(min-width: 641px) and (max-width:960px)">
+              <img src="./img/be-active_640.jpg" alt="be active">
+             </picture>
           <div class="number-block">
             <span class="number">01</span>
           </div>
@@ -276,6 +281,7 @@
       </div>
     </div>
   </footer> 
+</div>
 </body>
 
 </html>
