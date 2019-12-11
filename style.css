@@ -357,6 +357,7 @@
     background-image: url("./img/game_767.jpg");
     position: relative;
     background-size: cover;
+    margin-top: -4px;
   }
   
   .footer::before {
@@ -426,6 +427,11 @@
   }
    
   @media (min-width: 640px) and (max-width: 960px) {
+   .header-block {
+    background-image: url("./img/football_1280.jpg");
+
+   }
+
     .slogan {
       font-size: 64px;
       letter-spacing: 3.52px;
@@ -516,7 +522,7 @@
     }
     .image_basketball {
       position: absolute;
-      right: calc(50% - 290px);
+      left: calc(50% - 6vw);
       z-index: 12;
       bottom: 120px;
       width: 44.4%;
@@ -566,26 +572,16 @@
       margin-bottom: 13.54%;
       padding-bottom: 0;
     }
-  }
-
-@media (min-width: 961px) and (max-width: 1366px) {
-  .athlets_title {
-    font-size: 65px;
+    .footer {
+    background-image: url("./img/game_1280.jpg");
+    }
   }
   
-.image_basketball {
-  left: calc(50% - 220px);
-
-}
-}  
-
-@media (min-width: 1367px) {
-  .athlets_title {
-    font-size: 80px;
+  @media (min-width: 961px) {
+    .header-block {
+      background-image: url("./img/football_1920.jpg");
   }
-}
-  
-  @media (min-width: 961px) and (max-width: 1920px) {
+
     .logo-img {
       width: 10%;
       fill: #ffffff;
@@ -623,7 +619,6 @@
     .athlets_title {
       width: 17.76%;
       color: #e7e7e7;
-      /* font-size: 80px; */
       margin-top: 100px;
       margin-left: 52.45%;
       margin-bottom: 108px;
@@ -631,7 +626,7 @@
     .image_football {
       position: absolute;
       bottom: -3.4%;
-      left: -15.5%;
+      left: -20.5%;
       z-index: 20;
     }
     .list-item-information {
@@ -677,16 +672,18 @@
     .growth-card-players {
 padding-bottom: 60px;
     }
+
     .basketballer {
       position: relative;
+      overflow-x: hidden;
     }
   
     .image_basketball {
       position: absolute;
-      left: calc(50% - 400px);
+      left: calc(50% - 9vw);
       z-index: 12;
-      bottom: 197px;
-      width: 61.3%;
+      bottom: 145px;
+      width: 61.3vw;
     }
   
     .player-title {
@@ -717,14 +714,14 @@ padding-bottom: 60px;
       justify-content: center;
     }
     .number-block {
+      position: absolute;
       left: 46%;
       top: 34%;
-      width: 168px;
+      width: 8.75%;
       height: 155px;
     }
     .be-active-title {
       color: #c1c1c1;
-      /* font-size: 80px; */
       font-weight: 700;
       letter-spacing: 1.4px;
       margin-top: 0;
@@ -750,6 +747,8 @@ padding-bottom: 60px;
       padding-right: 0;
       padding-bottom: 0;
       letter-spacing: 1.2px;
+      padding-right: 8%;
+
     }
   
     .text-font__mod {
@@ -800,6 +799,32 @@ padding-bottom: 60px;
       margin-top: 0;
       padding-top: 70px;
     }
+    .footer {
+      background-image: url("./img/game_1920.jpg");
+      }
   }
-  
-  
+@media (min-width: 960px) and (max-width: 1366px) {
+  .athlets_title {
+    font-size: 50px;
+  }
+  .be-active-title {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1367px) {
+  .athlets_title {
+    font-size: 80px;
+  }
+  .be-active-title {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1921px) {
+  .page {
+      width: 1920px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  }
