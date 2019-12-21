@@ -1039,6 +1039,9 @@ padding-bottom: 60px;
   .be-active-title {
     font-size: 50px;
   }
+  .app-btns{
+    width: 63%;
+  }
 }
 
 @media (min-width: 1367px) {
